@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+/app/build/
+/.kotlin/
+
+# Local config — depende de la máquina de cada quien
+local.properties
+
+# Android Studio / IntelliJ
+.idea/*
+!.idea/gitignore.xml
+!.idea/vcs.xml
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Artefactos empaquetados
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs y volcados de memoria (JVM heap dumps tipo java_pid*.hprof)
+*.hprof
+*.log
+
+# macOS
+.DS_Store
+
+# google-services.json SE INCLUYE a propósito — repo privado, hace
+# falta que persista entre clones. Si este repo se vuelve público en
+# algún momento, sacar este archivo del control de versiones antes
+# (contiene API key y project ID reales del proyecto Firebase).

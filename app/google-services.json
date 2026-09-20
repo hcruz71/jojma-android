@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "243877760033",
+    "project_id": "jojma-b547e",
+    "storage_bucket": "jojma-b547e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243877760033:android:8046bd62673c94e4d5e760",
+        "android_client_info": {
+          "package_name": "com.hacz.jojmakabbalah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243877760033-0b33b0aaillrcvj0njitm1bqjes7lm3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ_QC8w1KVeqr76XtRIMiBfpEpwnYNdW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243877760033-0b33b0aaillrcvj0njitm1bqjes7lm3b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "243877760033-95sg2d8hp6h8uflkveqf50drg836l0u4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hacz.jojmakabbalah"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

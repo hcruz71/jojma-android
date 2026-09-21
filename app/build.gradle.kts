@@ -69,6 +69,9 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
+    // .await() sobre com.google.android.gms.tasks.Task — lo que devuelven
+    // las llamadas de Firebase Storage/Firestore.
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.11.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")

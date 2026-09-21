@@ -1,6 +1,8 @@
 package com.hacz.jojmakabbalah.salmos
 
 import com.hacz.jojmakabbalah.corpus.Salmo
+import com.hacz.jojmakabbalah.corpus.TraduccionResuelta
+import com.hacz.jojmakabbalah.corpus.textoResuelto
 
 /** Pantalla activa. El NavHost de Compose solo refleja este valor —
  *  la decisión de a dónde ir vive acá, testable sin NavController. */
@@ -24,8 +26,13 @@ data class SalmosUiState(
             return if (p is PantallaSalmos.Detalle) salmos.find { it.numero == p.numero } else null
         }
 
-    /** Líneas de texto del salmo abierto en el idioma activo — null
-     *  si no hay salmo abierto o ese idioma no tiene traducción. */
+    /** Traducción resuelta del salmo abierto: idioma pedido → español
+     *  → null. Paridad intencional con iOS — ver comentario completo
+     *  en `textoResuelto()` (corpus/Modelos.kt). */
+    val textoResueltoActual: TraduccionResuelta?
+        get() = salmoAbierto?.traducciones?.textoResuelto(idioma)
+
+    /** Líneas de texto a mostrar — ya con el fallback aplicado. */
     val textoMostrado: List<String>?
-        get() = salmoAbierto?.traduccion(idioma)?.texto
+        get() = textoResueltoActual?.lineas
 }

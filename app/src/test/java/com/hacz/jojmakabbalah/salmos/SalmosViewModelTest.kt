@@ -3,6 +3,7 @@ package com.hacz.jojmakabbalah.salmos
 import com.hacz.jojmakabbalah.corpus.Salmo
 import com.hacz.jojmakabbalah.corpus.SalmosApp
 import com.hacz.jojmakabbalah.corpus.SalmosRepository
+import com.hacz.jojmakabbalah.corpus.TraduccionContenido
 import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -131,5 +132,62 @@ class SalmosViewModelTest {
         // alternar de vuelta debe volver exacto al es original
         vm.alternarIdioma()
         assertEquals(esperadoEs, vm.state.value.textoMostrado)
+    }
+
+    // ── Fallback a español cuando falta "en" ─────────────────────────
+    //
+    // NINGÚN salmo real carece de "en" (150/150 confirmados con
+    // traducción completa esta sesión) — este Salmo es un DATO
+    // SINTÉTICO construido a mano solo para forzar el path de
+    // fallback, no viene del corpus. Verifica paridad con
+    // Dictionary.textoResuelto(preferido:) de IdiomaContenido.swift
+    // (iOS): idioma pedido → español → null si ninguno existe.
+
+    private val salmoSinteticoSinIngles = Salmo(
+        id = "salmo_test_sintetico",
+        numero = 9999,
+        titulo = "Salmo de prueba (sintético, no es del corpus)",
+        hebreo = listOf("שָׁלוֹם"),
+        traducciones = mapOf(
+            "es" to TraduccionContenido(texto = listOf("Paz")),
+            // Sin entrada "en" a propósito.
+        ),
+    )
+
+    @Test
+    fun `con fallback, pedir en para un salmo sin traduccion en debe caer a espanol (paridad con iOS)`() {
+        val vm = SalmosViewModel(SalmosRepository(), salmosIniciales = listOf(salmoSinteticoSinIngles))
+        vm.abrir(9999)
+        vm.alternarIdioma() // el USUARIO sigue pidiendo "en"
+
+        // El idioma PEDIDO no cambia -- el toggle sigue reflejando "en".
+        assertEquals("en", vm.state.value.idioma)
+
+        // Pero el texto MOSTRADO cae a espanol, igual que
+        // textoResuelto(preferido:) en iOS.
+        assertEquals(listOf("Paz"), vm.state.value.textoMostrado)
+
+        val resuelto = vm.state.value.textoResueltoActual!!
+        assertEquals("en", resuelto.pedido)
+        assertEquals("es", resuelto.idioma)
+        assertTrue("esFallback debe ser true", resuelto.esFallback)
+    }
+
+    @Test
+    fun `si tampoco hay espanol, textoMostrado es null (sin datos que mostrar)`() {
+        val salmoSinNadaEnElIdiomaPedidoNiEnEspanol = Salmo(
+            id = "salmo_test_sin_nada",
+            numero = 9998,
+            titulo = "Salmo de prueba (sintético, sin es ni en)",
+            hebreo = listOf("שָׁלוֹם"),
+            traducciones = emptyMap(),
+        )
+        val vm = SalmosViewModel(
+            SalmosRepository(),
+            salmosIniciales = listOf(salmoSinNadaEnElIdiomaPedidoNiEnEspanol),
+        )
+        vm.abrir(9998)
+        assertNull(vm.state.value.textoMostrado)
+        assertNull(vm.state.value.textoResueltoActual)
     }
 }

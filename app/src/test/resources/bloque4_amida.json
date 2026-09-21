@@ -1,0 +1,850 @@
+{
+  "metadata": {
+    "bloque": "4 — Amidá (Shemoná Esré), día de semana",
+    "sidur_objetivo": "Bircat Shelomó (nusaj sefardí / Edot HaMizraj)",
+    "nota_tetragramaton": "El nusaj Edot HaMizraj emplea permutaciones vocálicas del Tetragrámaton (יַהַוַהַ, יֵהֵוֵהֵ, יֻהֻוֻהֻ…) en las jatimot de cada bendición, según la kavaná kabbalística. Aquí se normaliza a יְיָ (Adonai); las permutaciones se incorporarán como capa kabbalística desde el sidur físico, enlazable con el módulo Nombres.",
+    "nota_inserciones": "No se incluyen como texto fijo las inserciones variables (morid hatal/mashiv haruaj, tal umatar, Ya'ale veYavó, Al HaNisim, Aneinu); se anotan en cada bendición.",
+    "total": 19
+  },
+  "oraciones": [
+    {
+      "id": "avot",
+      "nombre": "Avot",
+      "nombre_hebreo": "אָבוֹת",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ.",
+        "בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, אֱלֹהֵי אַבְרָהָם, אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב. הָאֵל הַגָּדוֹל, הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, גּוֹמֵל חֲסָדִים טוֹבִים, קוֹנֵה הַכֹּל, וְזוֹכֵר חַסְדֵי אָבוֹת, וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ, בְּאַהֲבָה.",
+        "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה יְיָ, מָגֵן אַבְרָהָם."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "el Señor, abre mis labios, y mi boca proclamará tu alabanza.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios y D-ios de nuestros padres, D-ios de Abraham, D-ios de Isaac y D-ios de Jacob. D-ios grande, poderoso y temible, D-ios Altísimo, que prodiga bondades, dueño de todo, que recuerda las bondades de los patriarcas y trae un redentor a los hijos de sus hijos, por amor a su Nombre, con amor.",
+            "Rey que ayuda, salva y escuda. Bendito eres Tú, el Eterno, escudo de Abraham."
+          ],
+          "transliteracion": [
+            "adonay sefatay tiftaj, ufi yagid tehilateja.",
+            "baruj atah Adonai, elohenu velohe avotenu, elohe avraham, elohe yitzjak velohe yaakov. hael hagadol, hagibor vehanora, el elyon, gomel jasadim tovim, koneh hakol, vezojer jasde avot, umevi goel livne venehem lemaan shemo, beahavah.",
+            "melej ozer umoshia umagen. baruj atah Adonai, magen avraham."
+          ]
+        },
+        "en": {
+          "texto": [
+            "O Lord, open my lips; and my mouth shall declare Your praise.",
+            "Blessed are You, the LORD our G-d and G-d of our fathers, G-d of Abraham, G-d of Isaac and G-d of Jacob. The great, mighty and awesome G-d, the Most High G-d, who bestows acts of lovingkindness, Master of all, who remembers the lovingkindness of the patriarchs, and brings a redeemer to their children's children, for the sake of His name, with love.",
+            "King who helps, saves and shields. Blessed are You, the LORD, Shield of Abraham."
+          ],
+          "transliteracion": [
+            "Adonai sefatay tiftakh, ufi yagid tehilatekha.",
+            "barukh atah Adonai, elohenu velohe avotenu, elohe avraham, elohe yitzkhak velohe yaakov. hael hagadol, hagibor vehanora, el elyon, gomel khasadim tovim, koneh hakol, vezokher khasde avot, umevi goel livne venehem lemaan shemo, beahavah.",
+            "melekh ozer umoshia umagen. barukh atah Adonai, magen avraham."
+          ],
+          "_fuente": "Psalm 51:17 embedded in element [0] — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Wikisource, public domain), modernized from JPS 1917 archaic English. Remaining liturgical formula: original English translation (Claude)."
+        }
+      },
+      "explicacion": "1ª bendición: invoca al D-ios de Abraham, Isaac y Jacob, que recuerda la bondad de los patriarcas y traerá al redentor.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "gevurot",
+      "nombre": "Gevurot",
+      "nombre_hebreo": "גְּבוּרוֹת",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "אַתָּה גִּבּוֹר לְעוֹלָם אֲדֹנָי, מְחַיֵּה מֵתִים אַתָּה, רַב לְהוֹשִׁיעַ.",
+        "מְכַלְכֵּל חַיִּים בְּחֶסֶד, מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים, וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר.",
+        "מִי כָמוֹךָ בַּעַל גְּבוּרוֹת, וּמִי דוֹמֶה לָּךְ, מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה.",
+        "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַמֵּתִים."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Tú eres poderoso para siempre, el Eterno; Tú que vivificas a los muertos, grande eres para salvar.",
+            "Que sustenta la vida con bondad, vivifica a los muertos con gran misericordia, sostiene a los que caen, sana a los enfermos, libera a los cautivos y mantiene su fidelidad a los que duermen en el polvo.",
+            "¿Quién como Tú, Señor de las potencias, y quién se asemeja a Ti, Rey que da la muerte y la vida, y hace florecer la salvación?",
+            "Y Tú eres fiel para resucitar a los muertos. Bendito eres Tú, el Eterno, que resucita a los muertos."
+          ],
+          "transliteracion": [
+            "atah gibor leolam adonay, mejayeh metim atah, rav lehoshia.",
+            "mejalkel jayim bejesed, mejayeh metim berajamim rabim, somej noflim, verofe jolim, umatir asurim, umkayem emunato lishene afar.",
+            "mi jamoja baal gevurot, umi domeh laj, melej memit umjayeh umatzmija yeshuah.",
+            "veneeman atah lehajayot metim. baruj atah Adonai, mejayeh hametim."
+          ]
+        },
+        "en": {
+          "texto": [
+            "You are mighty for ever, O Lord; You revive the dead, great is Your power to save.",
+            "Who sustains the living with lovingkindness, revives the dead with great mercy, supports the fallen, heals the sick, frees the captive, and keeps His faith with those who sleep in the dust.",
+            "Who is like You, Master of mighty deeds, and who resembles You, O King who brings death and life and causes salvation to flourish?",
+            "And You are faithful to revive the dead. Blessed are You, the LORD, who revives the dead."
+          ],
+          "transliteracion": [
+            "atah gibor leolam Adonai, mekhayeh metim atah, rav lehoshia.",
+            "mekhalkel khayim bekhesed, mekhayeh metim berakhamim rabim, somekh noflim, verofe kholim, umatir asurim, umkayem emunato lishene afar.",
+            "mi khamokha baal gevurot, umi domeh lakh, melekh memit umkhayeh umatzmikha yeshuah.",
+            "veneeman atah lehakhayot metim. barukh atah Adonai, mekhayeh hametim."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "2ª bendición: el poder divino que sostiene la vida y resucita a los muertos.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó.",
+      "_nota": "Tras la 1ª línea se inserta, según la estación: «morid hatal» (verano) o «mashiv haruaj umorid hageshem» (invierno)."
+    },
+    {
+      "id": "kedushat_hashem",
+      "nombre": "Kedushat HaShem",
+      "nombre_hebreo": "קְדֻשַּׁת הַשֵּׁם",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה, כִּי אֵל מֶלֶךְ גָּדוֹל וְקָדוֹשׁ אָתָּה. בָּרוּךְ אַתָּה יְיָ, הָאֵל הַקָּדוֹשׁ."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Tú eres Santo y tu Nombre es Santo, y los santos cada día te alaban, Selá; pues D-ios, Rey grande y Santo, eres Tú. Bendito eres Tú, el Eterno, D-ios el Santo."
+          ],
+          "transliteracion": [
+            "atah kadosh veshimja kadosh, ukdoshim bejal yom yehalluja selah, ki el melej gadol vekadosh atah. baruj atah Adonai, hael hakadosh."
+          ]
+        },
+        "en": {
+          "texto": [
+            "You are holy and Your name is holy, and holy ones praise You every day, Selah; for You are G-d, a great and holy King. Blessed are You, the LORD, the holy G-d."
+          ],
+          "transliteracion": [
+            "atah kadosh veshimkha kadosh, ukdoshim bekhal yom yehallukha selah, ki el melekh gadol vekadosh atah. barukh atah Adonai, hael hakadosh."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "3ª bendición: la santidad del Nombre, alabado cada día por los seres celestiales.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "binah",
+      "nombre": "Binah (Da'at)",
+      "nombre_hebreo": "בִּינָה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "אַתָּה חוֹנֵן לְאָדָם דַּעַת, וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה. חָנֵּנוּ מֵאִתְּךָ חָכְמָה בִּינָה וָדָעַת. בָּרוּךְ אַתָּה יְיָ, חוֹנֵן הַדָּעַת."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Tú otorgas conocimiento al ser humano y enseñas entendimiento al mortal. Concédenos de Ti sabiduría, entendimiento y conocimiento. Bendito eres Tú, el Eterno, que otorgas el conocimiento."
+          ],
+          "transliteracion": [
+            "atah jonen leadam daat, umlamed leenosh binah. janenu meitja jajmah binah vadaat. baruj atah Adonai, jonen hadaat."
+          ]
+        },
+        "en": {
+          "texto": [
+            "You graciously grant knowledge to man and teach understanding to a mortal. Grant us from You wisdom, understanding and knowledge. Blessed are You, the LORD, who graciously grants knowledge."
+          ],
+          "transliteracion": [
+            "atah khonen leadam daat, umlamed leenosh binah. khanenu meitkha khakhmah binah vadaat. barukh atah Adonai, khonen hadaat."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "4ª bendición: pide el don del conocimiento, el entendimiento y la sabiduría.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "teshuvah",
+      "nombre": "Teshuvá",
+      "nombre_hebreo": "תְּשׁוּבָה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "הֲשִׁיבֵנוּ אָבִינוּ לְתוֹרָתֶךָ, וְקָרְבֵנוּ מַלְכֵּנוּ לַעֲבוֹדָתֶךָ, וְהַחֲזִירֵנוּ בִּתְשׁוּבָה שְׁלֵמָה לְפָנֶיךָ. בָּרוּךְ אַתָּה יְיָ, הָרוֹצֶה בִּתְשׁוּבָה."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Haznos retornar, Padre nuestro, a Tu Torá; acércanos, Rey nuestro, a Tu servicio; y devuélvenos en plena teshuvá ante Ti. Bendito eres Tú, el Eterno, que deseas la teshuvá."
+          ],
+          "transliteracion": [
+            "hashivenu avinu letorateja, vekarvenu malkenu laavodateja, vehajazirenu bitshuvah shelemah lefaneja. baruj atah Adonai, harotzeh bitshuvah."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Bring us back, our Father, to Your Torah; draw us near, our King, to Your service; and return us in complete repentance before You. Blessed are You, the LORD, who desires repentance."
+          ],
+          "transliteracion": [
+            "hashivenu avinu letoratekha, vekarvenu malkenu laavodatekha, vehakhazirenu bitshuvah shelemah lefanekha. barukh atah Adonai, harotzeh bitshuvah."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "5ª bendición: pide el retorno a la Torá y la teshuvá completa.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "selijah",
+      "nombre": "Selijá",
+      "nombre_hebreo": "סְלִיחָה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "סְלַח לָנוּ אָבִינוּ כִּי חָטָאנוּ, מְחֹל לָנוּ מַלְכֵּנוּ כִּי פָשַׁעְנוּ, כִּי אֵל טוֹב וְסַלָּח אָתָּה. בָּרוּךְ אַתָּה יְיָ, חַנּוּן הַמַּרְבֶּה לִסְלֹחַ."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Perdónanos, Padre nuestro, pues hemos pecado; absuelve nuestras transgresiones, Rey nuestro, pues nos hemos rebelado; pues D-ios bueno y perdonador eres Tú. Bendito eres Tú, el Eterno, clemente que abundas en perdonar."
+          ],
+          "transliteracion": [
+            "selaj lanu avinu ki jatanu, mejol lanu malkenu ki fashanu, ki el tov vesalaj atah. baruj atah Adonai, janun hamarbeh lisloja."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Forgive us, our Father, for we have sinned; pardon us, our King, for we have transgressed; for You are a good and forgiving G-d. Blessed are You, the LORD, gracious One who abundantly forgives."
+          ],
+          "transliteracion": [
+            "selakh lanu avinu ki khatanu, mekhol lanu malkenu ki fashanu, ki el tov vesalakh atah. barukh atah Adonai, khanun hamarbeh lislokha."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "6ª bendición: pide el perdón por los pecados y las transgresiones.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "geulah",
+      "nombre": "Geulá",
+      "nombre_hebreo": "גְּאֻלָּה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "רְאֵה נָא בְעָנְיֵנוּ, וְרִיבָה רִיבֵנוּ, וּמַהֵר לְגָאֳלֵנוּ גְּאֻלָּה שְׁלֵמָה לְמַעַן שְׁמֶךָ, כִּי אֵל גּוֹאֵל חָזָק אָתָּה. בָּרוּךְ אַתָּה יְיָ, גּוֹאֵל יִשְׂרָאֵל."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Mira, te rogamos, nuestra aflicción; defiende nuestra causa y apresúrate a redimirnos con una redención plena por amor a tu Nombre, pues D-ios redentor fuerte eres Tú. Bendito eres Tú, el Eterno, redentor de Israel."
+          ],
+          "transliteracion": [
+            "reeh na veanyenu, verivah rivenu, umaher legaolenu geulah shelemah lemaan shemeja, ki el goel jazak atah. baruj atah Adonai, goel yisrael."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Look, we beseech You, upon our affliction; champion our cause and hasten to redeem us with a complete redemption, for the sake of Your name, for You are a mighty redeeming G-d. Blessed are You, the LORD, Redeemer of Israel."
+          ],
+          "transliteracion": [
+            "reeh na veanyenu, verivah rivenu, umaher legaolenu geulah shelemah lemaan shemekha, ki el goel khazak atah. barukh atah Adonai, goel yisrael."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "7ª bendición: pide la redención pronta y completa del pueblo.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "refuah",
+      "nombre": "Refuá",
+      "nombre_hebreo": "רְפוּאָה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "רְפָאֵנוּ יְיָ וְנֵרָפֵא, הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה, כִּי תְהִלָּתֵנוּ אָתָּה, וְהַעֲלֵה אֲרוּכָה וּמַרְפֵּא לְכָל תַּחֲלוּאֵינוּ וּלְכָל מַכְאוֹבֵינוּ וּלְכָל מַכּוֹתֵינוּ, כִּי אֵל מֶלֶךְ רוֹפֵא נֶאֱמָן וְרַחֲמָן אָתָּה. בָּרוּךְ אַתָּה יְיָ, רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Sánanos, el Eterno, y seremos sanados; sálvanos y seremos salvados, pues Tú eres nuestra alabanza; y envía remedio y cura plena para todas nuestras enfermedades, para todos nuestros dolores y para todas nuestras llagas, pues D-ios, Rey sanador, fiel y misericordioso, eres Tú. Bendito eres Tú, el Eterno, que sanas a los enfermos de tu pueblo Israel."
+          ],
+          "transliteracion": [
+            "refaenu Adonai venerafe, hoshienu venivasheah, ki tehilatenu atah, vehaaleh arujah umarpe lejal tajaluenu uljal majovenu uljal makotenu, ki el melej rofe neeman verajaman atah. baruj atah Adonai, rofe jole amo yisrael."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Heal us, LORD, and we shall be healed; save us and we shall be saved, for You are our praise; and send full recovery and healing for all our ailments, for all our pains and for all our wounds, for You are G-d, a faithful and merciful King and healer. Blessed are You, the LORD, who heals the sick of His people Israel."
+          ],
+          "transliteracion": [
+            "refaenu Adonai venerafe, hoshienu venivasheah, ki tehilatenu atah, vehaaleh arukhah umarpe lekhal takhaluenu ulkhal makhovenu ulkhal makotenu, ki el melekh rofe neeman verakhaman atah. barukh atah Adonai, rofe khole amo yisrael."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "8ª bendición: pide la sanación del cuerpo y del alma para todo dolencia.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó.",
+      "_nota": "Puede intercalarse aquí una plegaria por un enfermo concreto."
+    },
+    {
+      "id": "birkat_hashanim",
+      "nombre": "Birkat HaShanim",
+      "nombre_hebreo": "בִּרְכַּת הַשָּׁנִים",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "בָּרֵךְ עָלֵינוּ יְיָ אֱלֹהֵינוּ אֶת הַשָּׁנָה הַזֹּאת וְאֶת כָּל מִינֵי תְבוּאָתָהּ לְטוֹבָה, וְתֵן בְּרָכָה עַל פְּנֵי הָאֲדָמָה, וְשַׂבְּעֵנוּ מִטּוּבֶךָ, וּבָרֵךְ שְׁנָתֵנוּ כַּשָּׁנִים הַטּוֹבוֹת לִבְרָכָה, כִּי אֵל טוֹב וּמֵטִיב אַתָּה וּמְבָרֵךְ הַשָּׁנִים. בָּרוּךְ אַתָּה יְיָ, מְבָרֵךְ הַשָּׁנִים."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Bendice para nosotros, el Eterno, nuestro D-ios, este año y todos sus frutos para bien, y da bendición sobre la faz de la tierra; sácianos de Tu bondad y bendice nuestro año como los años buenos para bendición, pues D-ios bueno y bienhechor eres Tú y bendices los años. Bendito eres Tú, el Eterno, que bendices los años."
+          ],
+          "transliteracion": [
+            "barej alenu Adonai elohenu et hashanah hazot veet kal mine tevuatah letovah, veten berajah al pene haadamah, vesabenu mituveja, uvarej shenatenu kashanim hatovot livrajah, ki el tov umetiv atah umvarej hashanim. baruj atah Adonai, mevarej hashanim."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Bless for us, the LORD our G-d, this year and all its varied produce for good; and give blessing upon the face of the earth; satisfy us from Your goodness and bless our year like the good years for blessing, for You are a good and beneficent G-d and You bless the years. Blessed are You, the LORD, who blesses the years."
+          ],
+          "transliteracion": [
+            "barekh alenu Adonai elohenu et hashanah hazot veet kal mine tevuatah letovah, veten berakhah al pene haadamah, vesabenu mituvekha, uvarekh shenatenu kashanim hatovot livrakhah, ki el tov umetiv atah umvarekh hashanim. barukh atah Adonai, mevarekh hashanim."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "9ª bendición: pide la bendición del año y el sustento.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó.",
+      "_nota": "En invierno se sustituye «berajá» por «tal umatar livrajá» (rocío y lluvia)."
+    },
+    {
+      "id": "kibbutz_galuyot",
+      "nombre": "Kibbutz Galuyot",
+      "nombre_hebreo": "קִבּוּץ גָּלֻיּוֹת",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "תְּקַע בְּשׁוֹפָר גָּדוֹל לְחֵרוּתֵנוּ, וְשָׂא נֵס לְקַבֵּץ גָּלֻיּוֹתֵינוּ, וְקַבְּצֵנוּ יַחַד מֵאַרְבַּע כַּנְפוֹת הָאָרֶץ לְאַרְצֵנוּ. בָּרוּךְ אַתָּה יְיָ, מְקַבֵּץ נִדְחֵי עַמּוֹ יִשְׂרָאֵל."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Toca el gran shofar por nuestra libertad, alza el estandarte para reunir a nuestros exiliados y congréganoslos de los cuatro confines de la tierra a nuestra tierra. Bendito eres Tú, el Eterno, que reúnes a los dispersos de tu pueblo Israel."
+          ],
+          "transliteracion": [
+            "teka beshofar gadol lejerutenu, vesa nes lekabetz galuyotenu, vekabtzenu yajad mearba kanfot haaretz leartzenu. baruj atah Adonai, mekabetz nidje amo yisrael."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Sound the great shofar for our freedom, raise a banner to gather our exiles, and gather us together from the four corners of the earth to our land. Blessed are You, the LORD, who gathers the dispersed of His people Israel."
+          ],
+          "transliteracion": [
+            "teka beshofar gadol lekherutenu, vesa nes lekabetz galuyotenu, vekabtzenu yakhad mearba kanfot haaretz leartzenu. barukh atah Adonai, mekabetz nidkhe amo yisrael."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "10ª bendición: pide el gran shofar de la libertad y la reunión de los exiliados.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "mishpat",
+      "nombre": "Hashavat HaMishpat",
+      "nombre_hebreo": "הָשָׁבַת הַמִּשְׁפָּט",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "הָשִׁיבָה שׁוֹפְטֵינוּ כְּבָרִאשׁוֹנָה, וְיוֹעֲצֵינוּ כְּבַתְּחִלָּה. וְהָסֵר מִמֶּנוּ יָגוֹן וַאֲנָחָה, וּמְלֹךְ עָלֵינוּ אַתָּה יְיָ לְבַדְּךָ, בְּחֶסֶד וּבְרַחֲמִים, בְּצֶדֶק וּבְמִשְׁפָּט. בָּרוּךְ אַתָּה יְיָ, מֶלֶךְ אוֹהֵב צְדָקָה וּמִשְׁפָּט."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Restablece nuestros jueces como al principio y nuestros consejeros como en los primeros tiempos. Aleja de nosotros la tristeza y el lamento; y reina sobre nosotros Tú solo, el Eterno, con bondad y misericordia, con justicia y con derecho. Bendito eres Tú, el Eterno, Rey que amas la justicia y el derecho."
+          ],
+          "transliteracion": [
+            "hashivah shoftenu kevarishonah, veoatzenu kevatjilah. vehaser mimenu yagon vaanajah, umloj alenu atah Adonai levadja, bejesed uvrajamim, betzedek uvmishpat. baruj atah Adonai, melej ohev tzedakah umishpat."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Restore our judges as at first, and our counselors as at the beginning. Remove from us sorrow and sighing; and reign over us, You alone, the LORD, with kindness and mercy, with justice and righteousness. Blessed are You, the LORD, King who loves justice and righteousness."
+          ],
+          "transliteracion": [
+            "hashivah shoftenu kevarishonah, veoatzenu kevatkhilah. vehaser mimenu yagon vaanakhah, umlokh alenu atah Adonai levadkha, bekhesed uvrakhamim, betzedek uvmishpat. barukh atah Adonai, melekh ohev tzedakah umishpat."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "11ª bendición: pide la restauración de la justicia y el reinado divino.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "birkat_haminim",
+      "nombre": "Birkat HaMinim",
+      "nombre_hebreo": "בִּרְכַּת הַמִּינִים",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "לַמִּינִים וְלַמַּלְשִׁינִים אַל תְּהִי תִקְוָה, וְכָל הַזֵּדִים כְּרֶגַע יֹאבֵדוּ, וְכָל אוֹיְבֶיךָ וְכָל שׂוֹנְאֶיךָ מְהֵרָה יִכָּרֵתוּ, וּמַלְכוּת הָרִשְׁעָה מְהֵרָה תְעַקֵּר וּתְשַׁבֵּר, וּתְכַלֵּם וְתַכְנִיעֵם בִּמְהֵרָה בְיָמֵינוּ. בָּרוּךְ אַתָּה יְיָ, שׁוֹבֵר אוֹיְבִים וּמַכְנִיעַ זֵדִים."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Para los herejes y para los delatores no haya esperanza; que todos los presuntuosos perezcan al instante, todos tus enemigos y todos tus detractores sean pronto extirpados; el reino de la maldad sea pronto arrancado y quebrantado, humíllales y somételes pronto en nuestros días. Bendito eres Tú, el Eterno, que quiebras a los enemigos y humillas a los presuntuosos."
+          ],
+          "transliteracion": [
+            "laminim velamalshinim al tehi tikvah, vejal hazedim kerega yovedu, vejal oyveja vejal soneja meherah yikaretu, umaljut harishah meherah teaker utshaber, utjalem vetajniem bimherah veyamenu. baruj atah Adonai, shover oyvim umajnia zedim."
+          ]
+        },
+        "en": {
+          "texto": [
+            "For the heretics and for the informers let there be no hope; let all the arrogant perish in an instant; let all Your enemies and all who hate You be speedily cut off; and the kingdom of wickedness — uproot it and shatter it, speedily in our days. Blessed are You, the LORD, who shatters enemies and humbles the arrogant."
+          ],
+          "transliteracion": [
+            "laminim velamalshinim al tehi tikvah, vekhal hazedim kerega yovedu, vekhal oyvekha vekhal sonekha meherah yikaretu, umalkhut harishah meherah teaker utshaber, utkhalem vetakhniem bimherah veyamenu. barukh atah Adonai, shover oyvim umakhnia zedim."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "12ª bendición: pide que no prevalezcan la herejía ni la maldad.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "tzadikim",
+      "nombre": "Birkat HaTzadikim",
+      "nombre_hebreo": "עַל הַצַּדִּיקִים",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "עַל הַצַּדִּיקִים וְעַל הַחֲסִידִים וְעַל שְׁאֵרִית עַמְּךָ בֵּית יִשְׂרָאֵל וְעַל פְּלֵטַת בֵּית סוֹפְרֵיהֶם וְעַל גֵּרֵי הַצֶּדֶק וְעָלֵינוּ, יֶהֱמוּ נָא רַחֲמֶיךָ יְיָ אֱלֹהֵינוּ, וְתֵן שָׂכָר טוֹב לְכָל הַבּוֹטְחִים בְּשִׁמְךָ בֶּאֱמֶת, וְשִׂים חֶלְקֵנוּ עִמָּהֶם וּלְעוֹלָם לֹא נֵבוֹשׁ כִּי בְךָ בָטַחְנוּ, וְעַל חַסְדְּךָ הַגָּדוֹל בֶּאֱמֶת נִשְׁעָנְנוּ. בָּרוּךְ אַתָּה יְיָ, מִשְׁעָן וּמִבְטָח לַצַּדִּיקִים."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Sobre los justos y sobre los piadosos, sobre el resto de tu pueblo la casa de Israel, sobre los sobrevivientes de sus casas de estudio, sobre los conversos sinceros y sobre nosotros, que se estremezcan tus misericordias, el Eterno, nuestro D-ios; da buena recompensa a todos los que confían en tu Nombre en verdad; pon nuestra suerte con ellos y no quedemos avergonzados jamás, pues en Ti confiamos y en tu gran bondad en verdad nos apoyamos. Bendito eres Tú, el Eterno, apoyo y sostén de los justos."
+          ],
+          "transliteracion": [
+            "al hatzadikim veal hajasidim veal sheerit amja bet yisrael veal peletat bet sofrehem veal gere hatzedek vealenu, yehemu na rajameja Adonai elohenu, veten sajar tov lejal habotjim beshimja beemet, vesim jelkenu imahem ulolam lo nevosh ki veja vatajnu, veal jasdja hagadol beemet nishannu. baruj atah Adonai, mishan umivtaj latzadikim."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Upon the righteous and upon the pious, upon the remnant of Your people the house of Israel, upon the survivors of their houses of study, upon sincere converts and upon us — may Your mercies be stirred, the LORD our G-d; and grant good reward to all who trust in Your name in truth; set our portion with them, and may we never be put to shame, for we have trusted in You, and upon Your great lovingkindness in truth we rely. Blessed are You, the LORD, support and trust of the righteous."
+          ],
+          "transliteracion": [
+            "al hatzadikim veal hakhasidim veal sheerit amkha bet yisrael veal peletat bet sofrehem veal gere hatzedek vealenu, yehemu na rakhamekha Adonai elohenu, veten sakhar tov lekhal habotkhim beshimkha beemet, vesim khelkenu imahem ulolam lo nevosh ki vekha vatakhnu, veal khasdekha hagadol beemet nishannu. barukh atah Adonai, mishan umivtakh latzadikim."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "13ª bendición: pide misericordia sobre los justos, los píos y los conversos sinceros.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "boneh_yerushalayim",
+      "nombre": "Binyan Yerushalayim",
+      "nombre_hebreo": "בִּנְיַן יְרוּשָׁלַיִם",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "תִּשְׁכּוֹן בְּתוֹךְ יְרוּשָׁלַיִם עִירְךָ כַּאֲשֶׁר דִּבַּרְתָּ, וְכִסֵּא דָוִד עַבְדְּךָ מְהֵרָה בְתוֹכָהּ תָּכִין, וּבְנֵה אוֹתָהּ בִּנְיַן עוֹלָם בִּמְהֵרָה בְיָמֵינוּ. בָּרוּךְ אַתָּה יְיָ, בּוֹנֵה יְרוּשָׁלָיִם."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Mora en el seno de Jerusalén, tu ciudad, como prometiste; el trono de David, tu siervo, establécelo pronto en su interior; y reconstrúyela como edificación eterna pronto en nuestros días. Bendito eres Tú, el Eterno, que construyes Jerusalén."
+          ],
+          "transliteracion": [
+            "tishkon betoj yerushalayim irja kaasher dibarta, vejise david avdja meherah vetojah tajin, uvneh otah binyan olam bimherah veyamenu. baruj atah Adonai, boneh yerushalayim."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Dwell in the midst of Jerusalem Your city, as You have spoken; establish the throne of David Your servant speedily within it; and rebuild it as an everlasting structure speedily in our days. Blessed are You, the LORD, who builds Jerusalem."
+          ],
+          "transliteracion": [
+            "tishkon betokh yerushalayim irkha kaasher dibarta, vekhise david avdekha meherah vetokhah takhin, uvneh otah binyan olam bimherah veyamenu. barukh atah Adonai, boneh yerushalayim."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "14ª bendición (forma Edot HaMizrach): pide morar en Jerusalén y su reconstrucción eterna.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "maljut_beit_david",
+      "nombre": "Maljut Beit David",
+      "nombre_hebreo": "מַלְכוּת בֵּית דָּוִד",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "אֶת צֶמַח דָּוִד עַבְדְּךָ מְהֵרָה תַצְמִיחַ, וְקַרְנוֹ תָרוּם בִּישׁוּעָתֶךָ. כִּי לִישׁוּעָתְךָ קִוִּינוּ כָּל הַיּוֹם. בָּרוּךְ אַתָּה יְיָ, מַצְמִיחַ קֶרֶן יְשׁוּעָה."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "El vástago de David, tu siervo, haz que florezca pronto; y su poder se exalte con tu salvación. Pues en tu salvación esperamos todo el día. Bendito eres Tú, el Eterno, que haces florecer el poder de la salvación."
+          ],
+          "transliteracion": [
+            "et tzemaj david avdja meherah tatzmija, vekarno tarum bishuateja. ki lishuatja kivinu kal hayom. baruj atah Adonai, matzmija keren yeshuah."
+          ]
+        },
+        "en": {
+          "texto": [
+            "The branch of David Your servant — cause it to flourish speedily, and let his power be raised through Your salvation. For Your salvation we hope all the day. Blessed are You, the LORD, who causes the power of salvation to flourish."
+          ],
+          "transliteracion": [
+            "et tzemakh david avdekha meherah tatzmikha, vekarno tarum bishuatekha. ki lishuatkha kivinu kal hayom. barukh atah Adonai, matzmikha keren yeshuah."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "15ª bendición: pide el florecimiento del retoño de David y la salvación.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "shomea_tefilah",
+      "nombre": "Shomea Tefilá",
+      "nombre_hebreo": "שׁוֹמֵעַ תְּפִלָּה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "שְׁמַע קוֹלֵנוּ יְיָ אֱלֹהֵינוּ, אָב הָרַחֲמָן רַחֵם עָלֵינוּ, וְקַבֵּל בְּרַחֲמִים וּבְרָצוֹן אֶת תְּפִלָּתֵנוּ, כִּי אֵל שׁוֹמֵעַ תְּפִלּוֹת וְתַחֲנוּנִים אָתָּה, וּמִלְּפָנֶיךָ מַלְכֵּנוּ רֵיקָם אַל תְּשִׁיבֵנוּ. בָּרוּךְ אַתָּה יְיָ, שׁוֹמֵעַ תְּפִלָּה."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Escucha nuestra voz, el Eterno, nuestro D-ios; Padre misericordioso, ten piedad de nosotros; acepta con misericordia y favor nuestra oración, pues D-ios que escucha oraciones y súplicas eres Tú; y de ante Ti, Rey nuestro, no nos hagas volver con las manos vacías. Bendito eres Tú, el Eterno, que escuchas la oración."
+          ],
+          "transliteracion": [
+            "shema kolenu Adonai elohenu, av harajaman rajem alenu, vekabel berajamim uvratzon et tefilatenu, ki el shomea tefilot vetajanunim atah, umilfaneja malkenu rekam al teshivenu. baruj atah Adonai, shomea tefilah."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Hear our voice, the LORD our G-d; merciful Father, have mercy upon us; accept our prayer with mercy and goodwill, for You are G-d who hears prayers and supplications; and from before You, our King, do not send us away empty-handed. Blessed are You, the LORD, who hears prayer."
+          ],
+          "transliteracion": [
+            "shema kolenu Adonai elohenu, av harakhaman rakhem alenu, vekabel berakhamim uvratzon et tefilatenu, ki el shomea tefilot vetakhanunim atah, umilfanekha malkenu rekam al teshivenu. barukh atah Adonai, shomea tefilah."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "16ª bendición: pide que D-ios escuche y acepte la oración con misericordia.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    },
+    {
+      "id": "avodah",
+      "nombre": "Avodá",
+      "nombre_hebreo": "עֲבוֹדָה",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "רְצֵה יְיָ אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל, וְלִתְפִלָּתָם שְׁעֵה, וְהָשֵׁב הָעֲבוֹדָה לִדְבִיר בֵּיתֶךָ, וְאִשֵּׁי יִשְׂרָאֵל וּתְפִלָּתָם מְהֵרָה בְּאַהֲבָה תְּקַבֵּל בְּרָצוֹן, וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ.",
+        "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים. בָּרוּךְ אַתָּה יְיָ, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Acepta de buen grado, el Eterno, nuestro D-ios, a tu pueblo Israel y su oración; restituye el servicio al Debir de tu Casa; los fuegos de Israel y su oración acéptalos pronto con amor y favorable voluntad; y que el servicio de Israel, tu pueblo, sea siempre de tu agrado.",
+            "Y que nuestros ojos contemplen tu retorno a Sión con misericordia. Bendito eres Tú, el Eterno, que restituyes tu Shejiná a Sión."
+          ],
+          "transliteracion": [
+            "retzeh Adonai elohenu beamja yisrael, velitfilatam sheeh, vehashev haavodah lidvir beteja, veishe yisrael utfilatam meherah beahavah tekabel beratzon, uthi leratzon tamid avodat yisrael ameja.",
+            "vetejezenah enenu beshuvja letzion berajamim. baruj atah Adonai, hamajazir shejinato letzion."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Look with favor, the LORD our G-d, upon Your people Israel and their prayer; restore the service to the innermost chamber of Your House; and the fire-offerings of Israel and their prayer accept speedily with love and goodwill; and may the service of Israel Your people always be acceptable to You.",
+            "And may our eyes behold Your return to Zion in mercy. Blessed are You, the LORD, who restores His Presence to Zion."
+          ],
+          "transliteracion": [
+            "retzeh Adonai elohenu beamkha yisrael, velitfilatam sheeh, vehashev haavodah lidvir betekha, veishe yisrael utfilatam meherah beahavah tekabel beratzon, uthi leratzon tamid avodat yisrael amekha.",
+            "vetekhezenah enenu beshuvkha letziyon berakhamim. barukh atah Adonai, hamakhazir shekhinato letziyon."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "17ª bendición: pide el retorno del servicio al Templo y de la Presencia a Sión.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó.",
+      "_nota": "En Rosh Jodesh y Jol HaMoed se inserta «Ya'ale veYavó»."
+    },
+    {
+      "id": "modim",
+      "nombre": "Modim (Hodaá)",
+      "nombre_hebreo": "מוֹדִים",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד, צוּרֵנוּ צוּר חַיֵּינוּ וּמָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדֹר וָדֹר.",
+        "נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶיךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם. הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶיךָ, הַמְּרַחֵם כִּי לֹא תַמּוּ חֲסָדֶיךָ, כִּי מֵעוֹלָם קִוִּינוּ לָךְ.",
+        "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ מַלְכֵּנוּ תָּמִיד לְעוֹלָם וָעֶד.",
+        "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ וִיבָרְכוּ אֶת שִׁמְךָ הַגָּדוֹל בֶּאֱמֶת לְעוֹלָם כִּי טוֹב, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶּלָה, הָאֵל הַטּוֹב. בָּרוּךְ אַתָּה יְיָ, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Te reconocemos y damos gracias, pues Tú eres el Eterno, nuestro D-ios y D-ios de nuestros padres para siempre jamás; Roca nuestra, Roca de nuestra vida y Escudo de nuestra salvación, Tú lo eres de generación en generación.",
+            "Te damos gracias y proclamamos tu alabanza: por nuestras vidas encomendadas a tus manos, por nuestras almas confiadas a Ti, por tus milagros que son con nosotros cada día, y por tus maravillas y bondades de cada momento, tarde, mañana y mediodía. El Bueno, pues no se agotaron tus misericordias; el Misericordioso, pues no se agotaron tus bondades; pues desde siempre pusimos nuestra esperanza en Ti.",
+            "Y por todo ello sea bendecido y exaltado tu Nombre, Rey nuestro, siempre para siempre jamás.",
+            "Y todos los seres vivos te reconocerán Selá, y alabarán y bendecirán tu gran Nombre en verdad para siempre, pues eres bueno; D-ios, nuestra salvación y nuestro socorro, Selá, D-ios el Bueno. Bendito eres Tú, el Eterno, bueno es tu Nombre y a Ti corresponde el agradecimiento."
+          ],
+          "transliteracion": [
+            "modim anajnu laj, shaatah hu Adonai elohenu velohe avotenu leolam vaed, tzurenu tzur jayenu umagen yishenu atah hu ledor vador.",
+            "nodeh leja unsaper tehilateja, al jayenu hamsurim beyadeja, veal nishmotenu hapkudot laj, veal niseja shebjal yom imanu, veal nifloteja vetovoteja shebjal et, erev vavoker vetzahorayim. hatov ki lo jalu rajameja, hamrajem ki lo tamu jasadeja, ki meolam kivinu laj.",
+            "veal kulam yitbaraj veyitromam shimja malkenu tamid leolam vaed.",
+            "vejol hajayim yoduja selah, vihallu vivarju et shimja hagadol beemet leolam ki tov, hael yeshuatenu veezratenu selah, hael hatov. baruj atah Adonai, hatov shimja ulja naeh lehodot."
+          ]
+        },
+        "en": {
+          "texto": [
+            "We acknowledge You, for You are the LORD our G-d and G-d of our fathers for ever and ever; our Rock, the Rock of our life and the Shield of our salvation — You are He from generation to generation.",
+            "We thank You and recount Your praise: for our lives entrusted into Your hands, for our souls charged to Your care, for Your miracles which are with us every day, and for Your wonders and goodnesses at every time, evening, morning and noon. The Good One, for Your mercies have not ceased; the Merciful One, for Your lovingkindnesses have not been exhausted; for from eternity we have placed our hope in You.",
+            "And for all of these may Your name be blessed and exalted, our King, always and for ever and ever.",
+            "And all the living shall acknowledge You, Selah; and they shall praise and bless Your great name in truth for ever, for You are good; G-d of our salvation and our help, Selah, the good G-d. Blessed are You, the LORD, good is Your name and to You it is fitting to give thanks."
+          ],
+          "transliteracion": [
+            "modim anakhnu lakh, shaatah hu Adonai elohenu velohe avotenu leolam vaed, tzurenu tzur khayenu umagen yishenu atah hu ledor vador.",
+            "nodeh lekha unsaper tehilatekha, al khayenu hamsurim beyadekha, veal nishmotenu hapkudot lakh, veal nisekha shebkhal yom imanu, veal nifleotekha vetovotekha shebkhal et, erev vavoker vetzahorayim. hatov ki lo khalu rakhamekha, hamrakhem ki lo tamu khasadekha, ki meolam kivinu lakh.",
+            "veal kulam yitbarakh veyitromam shimkha malkenu tamid leolam vaed.",
+            "vekhol hakhayim yodukha selah, vihallu vivarkhu et shimkha hagadol beemet leolam ki tov, hael yeshuatenu veezratenu selah, hael hatov. barukh atah Adonai, hatov shimkha ulkha naeh lehodot."
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "18ª bendición: el agradecimiento por la vida, los milagros diarios y la bondad constante.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó.",
+      "_nota": "En Janucá y Purim se inserta «Al HaNisim»."
+    },
+    {
+      "id": "sim_shalom",
+      "nombre": "Sim Shalom (Birkat Shalom)",
+      "nombre_hebreo": "בִּרְכַּת שָׁלוֹם",
+      "categoria": "amida",
+      "momentos": [
+        "shajrit",
+        "minja",
+        "arvit"
+      ],
+      "hebreo": [
+        "שִׂים שָׁלוֹם טוֹבָה וּבְרָכָה, חַיִּים, חֵן וָחֶסֶד, צְדָקָה וְרַחֲמִים, עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל עַמֶּךָ. וּבָרְכֵנוּ אָבִינוּ, כֻּלָּנוּ כְאֶחָד בְּאוֹר פָּנֶיךָ, כִּי בְאוֹר פָּנֶיךָ נָתַתָּ לָּנוּ יְיָ אֱלֹהֵינוּ, תּוֹרָה וְחַיִּים, אַהֲבָה וָחֶסֶד, צְדָקָה וְרַחֲמִים, בְּרָכָה וְשָׁלוֹם.",
+        "וְטוֹב בְּעֵינֶיךָ לְבָרְכֵנוּ וּלְבָרֵךְ אֶת כָּל עַמְּךָ יִשְׂרָאֵל בְּרֹב עֹז וְשָׁלוֹם. בָּרוּךְ אַתָּה יְיָ, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם.",
+        "יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ, יְיָ צוּרִי וְגוֹאֲלִי."
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Pon paz, bien y bendición, vida, gracia y bondad, justicia y misericordia sobre nosotros y sobre todo Israel, tu pueblo. Bendícenos, Padre nuestro, a todos juntos con la luz de tu rostro; pues con la luz de tu rostro nos diste, el Eterno, nuestro D-ios: Torá y vida, amor y bondad, justicia y misericordia, bendición y paz.",
+            "Y que sea bueno ante tus ojos bendecirnos y bendecir a todo tu pueblo Israel con abundante poder y paz. Bendito eres Tú, el Eterno, que bendices a tu pueblo Israel con la paz.",
+            "Sean de tu agrado las palabras de mi boca y la meditación de mi corazón ante Ti, el Eterno, mi Roca y mi Redentor."
+          ],
+          "transliteracion": [
+            "sim shalom tovah uvrajah, jayim, jen vajesed, tzedakah verajamim, alenu veal kal yisrael ameja. uvarjenu avinu, kulanu jeejad beor paneja, ki veor paneja natata lanu Adonai elohenu, torah vejayim, ahavah vajesed, tzedakah verajamim, berajah veshalom.",
+            "vetov beeneja levarjenu ulvarej et kal amja yisrael berov oz veshalom. baruj atah Adonai, hamvarej et amo yisrael bashalom.",
+            "yihyu leratzon imre fi vehegyon libi lefaneja, Adonai tzuri vegoali."
+          ]
+        },
+        "en": {
+          "texto": [
+            "Grant peace, goodness and blessing, life, grace and lovingkindness, righteousness and mercy, upon us and upon all Israel Your people. Bless us, our Father, all of us as one, in the light of Your countenance; for in the light of Your countenance You gave us, the LORD our G-d, Torah and life, love and lovingkindness, righteousness and mercy, blessing and peace.",
+            "And may it be good in Your eyes to bless us and bless all Your people Israel with abundant strength and peace. Blessed are You, the LORD, who blesses His people Israel with peace.",
+            "Let the words of my mouth and the meditation of my heart be acceptable before You, O LORD, my Rock, and my Redeemer."
+          ],
+          "transliteracion": [
+            "sim shalom tovah uvrakhah, khayim, khen vakhesed, tzedakah verakhamim, alenu veal kal yisrael amekha. uvarkhenu avinu, kulanu kheekhad beor panekha, ki veor panekha natata lanu Adonai elohenu, torah vekhayim, ahavah vakhesed, tzedakah verakhamim, berakhah veshalom.",
+            "vetov beenekha levarkhenu ulvarekh et kal amkha yisrael berov oz veshalom. barukh atah Adonai, hamvarekh et amo yisrael bashalom.",
+            "yihyu leratzon imre fi vehegyon libi lefanekha, Adonai tzuri vegoali."
+          ],
+          "_fuente": "Psalm 19:15 embedded in element [2] — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Wikisource, public domain), modernized from JPS 1917 archaic English. Remaining liturgical formula: original English translation (Claude)."
+        }
+      },
+      "explicacion": "19ª bendición: pide la paz, el bien y la bendición para Israel; cierra la Amidá.",
+      "secretos": [],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "_fuente": "Traducción propia, aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector contra Bircat Shelomó."
+    }
+  ]
+}

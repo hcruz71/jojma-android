@@ -1,0 +1,452 @@
+{
+  "_meta": {
+    "bloque": "bloque11_shabbat",
+    "descripcion": "Núcleo doméstico del modo guiado de Shabat",
+    "nota_nusaj": "Claves de nusaj canónicas: edot_hamizrach, sefard, ashkenaz, teimani, todos. NO usar 'sefaradi_mizraji'."
+  },
+  "atomos": [
+    {
+      "id": "velas_shabbat",
+      "nombre": "Encendido de las velas de Shabat",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "hebreo": [
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que nos santificó con Sus mandamientos y nos ordenó encender la vela del Shabat."
+          ],
+          "transliteracion": [
+            "baruj atah Adonai elohenu melej haolam, asher kidshanu bemitzotayv vetzivanu lehadlik ner shel shabat"
+          ]
+        },
+        "en": {
+          "texto": [
+            "Blessed are You, the LORD our G-d, King of the universe, who has sanctified us with His commandments and commanded us to light the Sabbath candles."
+          ],
+          "transliteracion": [
+            "barukh atah Adonai elohenu melekh haolam, asher kidshanu bemitzotayv vetzivanu lehadlik ner shel shabat"
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "Bendición sobre el encendido de las velas que recibe el Shabat. En el rito sefardí/EdM se recita la bendición y luego se encienden las velas; encender primero y cubrirse los ojos es costumbre asquenazí.",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "edot_hamizrach": "Se recita la bendición y luego se encienden las velas.",
+        "ashkenaz": "Se encienden las velas, se cubren los ojos con las manos y se dice la bendición."
+      },
+      "_fuente": "Traducción propia (Claude), aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Verificada por Hector.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Cotejado contra Bircat Shelomó (EdM)."
+    },
+    {
+      "id": "kidush_leil_shabbat",
+      "nombre": "Kidush de la noche de Shabat",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "edot_hamizrach"
+        ]
+      },
+      "hebreo": [
+        "יוֹם הַשִּׁשִּׁי",
+        "«ref_id: vaijulu»",
+        "סַבְרִי מָרָנָן וְרַבָּנָן וְרַבּוֹתַי",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּפֶן",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְרָצָה בָנוּ, וְשַׁבַּת קָדְשׁוֹ בְּאַהֲבָה וּבְרָצוֹן הִנְחִילָנוּ, זִכָּרוֹן לְמַעֲשֵׂה בְרֵאשִׁית",
+        "כִּי הוּא יוֹם תְּחִלָּה לְמִקְרָאֵי קֹדֶשׁ, זֵכֶר לִיצִיאַת מִצְרָיִם",
+        "כִּי בָנוּ בָחַרְתָּ וְאוֹתָנוּ קִדַּשְׁתָּ מִכָּל הָעַמִּים, וְשַׁבַּת קָדְשְׁךָ בְּאַהֲבָה וּבְרָצוֹן הִנְחַלְתָּנוּ",
+        "בָּרוּךְ אַתָּה יְיָ מְקַדֵּשׁ הַשַּׁבָּת"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "El sexto día",
+            "«ref_id: vaijulu»",
+            "¡Con su venia, señores, maestros y rabinos!",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que crea el fruto de la vid.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que nos santificó con Sus mandamientos y se complace en nosotros, y Su Shabat santo con amor y benevolencia nos ha dado en herencia, recuerdo de la obra de la Creación,",
+            "pues es día primero entre los días de santidad, remembranza de la salida de Egipto,",
+            "pues a nosotros nos elegiste y a nosotros nos santificaste de entre todos los pueblos, y Tu Shabat santo con amor y benevolencia nos has legado.",
+            "Bendito eres Tú, el Eterno, que santifica el Shabat."
+          ],
+          "transliteracion": [
+            "yom hashishi",
+            "«ref_id: vaijulu»",
+            "savri maranan verabanan verabotay",
+            "baruj atah Adonai elohenu melej haolam bore peri hagafen",
+            "baruj atah Adonai elohenu melej haolam asher kidshanu bemitzotayv veratzah vanu, veshabat kadsho beahavah uvratzon hinjilanu, zikaron lemaaseh vereshit",
+            "ki hu yom tejilah lemikrae kodesh, zejer litziat mitzrayim",
+            "ki vanu vajarta veotanu kidashta mikal haamim, veshabat kadshja beahavah uvratzon hinjaltanu",
+            "baruj atah Adonai mekadesh hashabat"
+          ]
+        },
+        "en": {
+          "texto": [
+            "The sixth day.",
+            "«ref_id: vaijulu»",
+            "With your permission, my masters and teachers!",
+            "Blessed are You, the LORD, our G-d, King of the universe, who creates the fruit of the vine.",
+            "Blessed are You, the LORD, our G-d, King of the universe, who has sanctified us with His commandments and has been pleased with us, and His holy Sabbath He has given us as a heritage with love and goodwill, a remembrance of the work of Creation,",
+            "for it is the first among the holy convocations, a remembrance of the Exodus from Egypt.",
+            "For You have chosen us and sanctified us from among all peoples, and Your holy Sabbath have You given us as a heritage, with love and goodwill.",
+            "Blessed are You, the LORD, who sanctifies the Sabbath."
+          ],
+          "transliteracion": [
+            "yom hashishi",
+            "«ref_id: vaijulu»",
+            "savri maranan verabanan verabotay",
+            "barukh atah Adonai elohenu melekh haolam bore peri hagafen",
+            "barukh atah Adonai elohenu melekh haolam asher kidshanu bemitzotayv veratzah vanu, veshabat kadsho beahavah uvratzon hinkhilanu, zikaron lemaaseh vereshit",
+            "ki hu yom tekhilah lemikrae kodesh, zekher litziat mitzrayim",
+            "ki vanu vakharta veotanu kidashta mikal haamim, veshabat kadshekha beahavah uvratzon hinkhaltanu",
+            "barukh atah Adonai mekadesh hashabat"
+          ],
+          "_fuente": "Liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "Santificación del día de Shabat sobre la copa de vino, en la primera comida (viernes noche): Vaijulú (Bereshit 2:1-3), bendición del vino y bendición de la santidad del día.",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "edot_hamizrach": "Se toma la copa en la mano derecha, con las jalot cubiertas, y se recita el Kidush."
+      },
+      "_fuente": "Texto litúrgico: traducción propia (Claude), aplicando la convención de nombres divinos del proyecto (CLAUDE.md). Vaijulú (Génesis 2:1-3, elemento [1]): resuelto vía ref_id en runtime desde átomo vaijulu. Verificada por Hector.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Cotejado contra Bircat Shelomó (EdM); Savri en forma larga sefardí."
+    },
+    {
+      "id": "hamotzi",
+      "nombre": "Bendición del pan (Hamotsí)",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "ref": {
+        "ref_modulo": "oraciones",
+        "ref_id": "braja_hamotsi"
+      },
+      "explicacion": "Bendición sobre el pan. En Shabat se recita sobre dos jalot (lejem mishné), recordando la doble ración del maná del viernes.",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "todos": "Tras el lavado ritual de manos (Netilat Yadayim), se descubren las dos jalot, se levantan ambas, se recita la bendición y se reparte el pan."
+      },
+      "_fuente": "Texto canónico (dominio público). Capa kabbalística: Los Secretos de Shabbat §4.1, §4.3.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Ref puro a braja_hamotsi (preservados). El cuerpo (1 línea) lo hidrata el resolver post-ingesta. Aquí solo se conserva el envoltorio kabbalístico de Shabbat: rúbrica de dos jalot + secretos + explicación contextual.",
+      "traducciones": {
+        "es": {
+          "texto": null,
+          "transliteracion": []
+        }
+      }
+    },
+    {
+      "id": "havdala",
+      "nombre": "Havdalá (separación del Shabat)",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "edot_hamizrach"
+        ]
+      },
+      "hebreo": [
+        "הִנֵּה אֵל יְשׁוּעָתִי אֶבְטַח וְלֹא אֶפְחָד, כִּי עָזִּי וְזִמְרָת יָהּ יְיָ וַיְהִי לִי לִישׁוּעָה",
+        "וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה",
+        "לַיְיָ הַיְשׁוּעָה, עַל עַמְּךָ בִרְכָתֶךָ סֶּלָה",
+        "יְיָ צְבָאוֹת עִמָּנוּ, מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה",
+        "יְיָ צְבָאוֹת, אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ",
+        "יְיָ הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ",
+        "לַיְּהוּדִים הָיְתָה אוֹרָה וְשִׂמְחָה וְשָׂשֹׂן וִיקָר, כֵּן תִּהְיֶה לָּנוּ",
+        "כּוֹס יְשׁוּעוֹת אֶשָּׂא וּבְשֵׁם יְיָ אֶקְרָא",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּפֶן",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא מִינֵי בְשָׂמִים",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא מְאוֹרֵי הָאֵשׁ",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַמַּבְדִּיל בֵּין קֹדֶשׁ לְחֹל, בֵּין אוֹר לְחֹשֶׁךְ, בֵּין יִשְׂרָאֵל לָעַמִּים, בֵּין יוֹם הַשְּׁבִיעִי לְשֵׁשֶׁת יְמֵי הַמַּעֲשֶׂה. בָּרוּךְ אַתָּה יְיָ הַמַּבְדִּיל בֵּין קֹדֶשׁ לְחֹל"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "He aquí D-ios es salud mía; aseguraréme, y no temeré; porque mi fortaleza y mi canción es Yah el Eterno, el cual ha sido salud para mí.",
+            "Sacaréis aguas con gozo de las fuentes de la salud.",
+            "Del Eterno es la salud: Sobre tu pueblo será tu bendición. (Selah.)",
+            "El Eterno de los ejércitos es con nosotros; Nuestro refugio es el D-ios de Jacob. (Selah.)",
+            "El Eterno de los ejércitos, Dichoso el hombre que en Ti confía.",
+            "Salva, el Eterno: Que el Rey nos oiga el día que lo invocáremos.",
+            "Los judíos tuvieron luz y alegría, y gozo y honra; así sea para nosotros.",
+            "Tomaré la copa de la salud, e invocaré el nombre del Eterno.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que crea el fruto de la vid.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que crea diversas especies de especias aromáticas.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que crea las luminarias del fuego.",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que separa entre lo sagrado y lo profano, entre la luz y las tinieblas, entre Israel y las naciones, entre el séptimo día y los seis días de la semana. Bendito eres Tú, el Eterno, que separa entre lo sagrado y lo profano."
+          ],
+          "transliteracion": [
+            "hineh el yeshuati evtaj velo efjad, ki azi vezimrat yah Adonai vayhi li lishuah",
+            "ushavtem mayim besason mimaayne hayshuah",
+            "laAdonai hayshuah, al amja virjateja selah",
+            "Adonai tzevaot imanu, misgav lanu elohe yaakov selah",
+            "Adonai tzevaot, ashre adam boteja baj",
+            "Adonai hoshiah, hamelej yaanenu veom karenu",
+            "layhudim haytah orah vesimjah vesason vikar, ken tihyeh lanu",
+            "kos yeshuot esa uvshem Adonai ekra",
+            "baruj atah Adonai elohenu melej haolam bore peri hagafen",
+            "baruj atah Adonai elohenu melej haolam bore mine vesamim",
+            "baruj atah Adonai elohenu melej haolam bore meore haesh",
+            "baruj atah Adonai elohenu melej haolam hamavdil ben kodesh lejol, ben or lejoshej, ben yisrael laamim, ben yom hashvii lesheshet yeme hamaaseh. baruj atah Adonai hamavdil ben kodesh lejol"
+          ]
+        },
+        "en": {
+          "texto": [
+            "Behold, G-d is my salvation; I will trust, and will not be afraid; for G-d the LORD is my strength and song; and He is become my salvation.",
+            "Therefore with joy shall you draw water out of the wells of salvation.",
+            "Salvation belongs to the LORD; Your blessing be upon Your people. Selah.",
+            "The LORD of hosts is with us; the G-d of Jacob is our high tower. Selah.",
+            "O LORD of hosts, happy is the one who trusts in You.",
+            "Save, O LORD; may the King answer us on the day we call.",
+            "The Jews had light and gladness, and joy and honour.",
+            "I will lift up the cup of salvation, and call upon the name of the LORD.",
+            "Blessed are You, the LORD our G-d, King of the universe, who creates the fruit of the vine.",
+            "Blessed are You, the LORD our G-d, King of the universe, who creates various kinds of fragrant spices.",
+            "Blessed are You, the LORD our G-d, King of the universe, who creates the lights of fire.",
+            "Blessed are You, the LORD our G-d, King of the universe, who separates between the sacred and the mundane, between light and darkness, between Israel and the nations, between the seventh day and the six days of the week. Blessed are You, the LORD, who separates between the sacred and the mundane."
+          ],
+          "transliteracion": [
+            "hineh el yeshuati evtakh velo efkhad, ki azi vezimrat yah Adonai vayhi li lishuah",
+            "ushavtem mayim besason mimaayne hayshuah",
+            "laAdonai hayshuah, al amkha virkhatekha selah",
+            "Adonai tzevaot imanu, misgav lanu elohe yaakov selah",
+            "Adonai tzevaot, ashre adam botekha bakh",
+            "Adonai hoshiah, hamelekh yaanenu veom karenu",
+            "layhudim haytah orah vesimkhah vesason vikar, ken tihyeh lanu",
+            "kos yeshuot esa uvshem Adonai ekra",
+            "barukh atah Adonai elohenu melekh haolam bore peri hagafen",
+            "barukh atah Adonai elohenu melekh haolam bore mine vesamim",
+            "barukh atah Adonai elohenu melekh haolam bore meore haesh",
+            "barukh atah Adonai elohenu melekh haolam hamavdil ben kodesh lekhol, ben or lekhoshekh, ben yisrael laamim, ben yom hashvii lesheshet yeme hamaaseh. barukh atah Adonai hamavdil ben kodesh lekhol"
+          ],
+          "_fuente": "Isaiah 12:2-3, Psalms 3:9, 46:12, 84:13, Esther 8:16, Psalm 116:13 — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Wikisource, public domain), with substitution God→G-d, modernized from JPS 1917 archaic English (thou/thy → you/your where applicable). Remaining elements ([1], [5], [8]-[11]): liturgical formula, original English translation (Claude)."
+        }
+      },
+      "explicacion": "Cierre del Shabat (motzaei Shabat). Pesukim de apertura más cuatro bendiciones en el orden Yavneh: vino, especias, fuego y separación.",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "todos": "Se levanta la copa de vino (sin beber aún); se huelen las especias; se mira el reflejo de la luz en las uñas con la vela trenzada de varias mechas; se recita la bendición de separación y se bebe el vino."
+      },
+      "_fuente": "Isaías 12:2-3; Salmos 3:8, 46:11, 84:12, 20:9, 116:13; Ester 8:16 — Códice de Leningrado (dominio público). Traducción al español: Biblia Reina-Valera 1909 (Wikisource, dominio público), con sustitución Jehová→Eterno, Dios→D-ios, Jah→Yah, y ortografía modernizada. Nota versículos: Sal 3:8, 20:9, 46:11, 84:12 (numeración RV1909; la referencia litúrgica usa numeración masorética con una unidad de diferencia). Adición litúrgica en Est 8:16: 'כֵּן תִּהְיֶה לָּנוּ' → 'así sea para nosotros'. Brajot litúrgicas [8]–[11]: traducción propia (Claude). Verificada por Hector.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Cotejado (EdM); 6 pesukim de apertura aportados por Hector. Algunas ediciones EdM anteponen versículos extra y una breve petición de éxito; el set de 8 es suficiente, no bloqueante."
+    },
+    {
+      "id": "kidush_yom_shabbat",
+      "nombre": "Kidush de la mañana (Kidush Rabá)",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "edot_hamizrach"
+        ]
+      },
+      "hebreo": [
+        "אִם תָּשִׁיב מִשַּׁבָּת רַגְלֶךָ, עֲשׂוֹת חֲפָצֶךָ בְּיוֹם קָדְשִׁי, וְקָרָאתָ לַשַּׁבָּת עֹנֶג לִקְדוֹשׁ יְיָ מְכֻבָּד, וְכִבַּדְתּוֹ מֵעֲשׂוֹת דְּרָכֶיךָ מִמְּצוֹא חֶפְצְךָ וְדַבֵּר דָּבָר. אָז תִּתְעַנַּג עַל יְיָ, וְהִרְכַּבְתִּיךָ עַל בָּמֳתֵי אָרֶץ, וְהַאֲכַלְתִּיךָ נַחֲלַת יַעֲקֹב אָבִיךָ, כִּי פִּי יְיָ דִּבֵּר.",
+        "«ref_id: veshamru»",
+        "זָכוֹר אֶת יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ. שֵׁשֶׁת יָמִים תַּעֲבֹד וְעָשִׂיתָ כָּל מְלַאכְתֶּךָ. וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַייָ אֱלֹהֶיךָ, לֹא תַעֲשֶׂה כָל מְלָאכָה אַתָּה וּבִנְךָ וּבִתֶּךָ עַבְדְּךָ וַאֲמָתְךָ וּבְהֶמְתֶּךָ וְגֵרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ. כִּי שֵׁשֶׁת יָמִים עָשָׂה יְיָ אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ אֶת הַיָּם וְאֶת כָּל אֲשֶׁר בָּם, וַיָּנַח בַּיּוֹם הַשְּׁבִיעִי, עַל כֵּן בֵּרַךְ יְיָ אֶת יוֹם הַשַּׁבָּת וַיְקַדְּשֵׁהוּ.",
+        "סַבְרִי מָרָנָן וְרַבָּנָן וְרַבּוֹתַי",
+        "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּפֶן"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Si retrajeres del sábado tu pie, de hacer tu voluntad en mi día santo, y al sábado llamares delicias, santo, glorioso del Eterno; y lo venerares, no haciendo tus caminos, ni buscando tu voluntad, ni hablando tus palabras: Entonces te deleitarás en el Eterno; y yo te haré subir sobre las alturas de la tierra, y te daré a comer la heredad de Jacob tu padre: porque la boca del Eterno lo ha hablado.",
+            "«ref_id: veshamru»",
+            "Acordarte has del día del reposo, para santificarlo: Seis días trabajarás, y harás toda tu obra; Mas el séptimo día será reposo para el Eterno tu D-ios: no hagas en él obra alguna, tú, ni tu hijo, ni tu hija, ni tu siervo, ni tu criada, ni tu bestia, ni tu extranjero que está dentro de tus puertas: Porque en seis días hizo el Eterno los cielos y la tierra, la mar y todas las cosas que en ellos hay, y reposó en el séptimo día: por tanto el Eterno bendijo el día del reposo y lo santificó.",
+            "¡Con su venia, señores, maestros y rabinos!",
+            "Bendito eres Tú, el Eterno, nuestro D-ios, Rey del universo, que crea el fruto de la vid."
+          ],
+          "transliteracion": [
+            "im tashiv mishabat ragleja, asot jafatzeja beom kadshi, vekarata lashabat oneg likdosh Adonai mejubad, vejibadto measot derajeja mimtzo jeftzja vedaber davar. az titanag al Adonai, vehirkavtija al bamote aretz, vehaajaltija najalat yaakov avija, ki pi Adonai diber.",
+            "«ref_id: veshamru»",
+            "zajor et yom hashabat lekadsho. sheshet yamim taavod veasita kal melajteja. veom hashvii shabat laAdonai eloheja, lo taaseh jal melajah atah uvinja uviteja avdja vaamatja uvhemteja vegerja asher bishareja. ki sheshet yamim asah Adonai et hashamayim veet haaretz et hayam veet kal asher bam, vayanaj bayom hashvii, al ken beraj Adonai et yom hashabat vaykadshehu.",
+            "savri maranan verabanan verabotay",
+            "baruj atah Adonai elohenu melej haolam bore peri hagafen"
+          ]
+        },
+        "en": {
+          "texto": [
+            "If you turn away your foot because of the sabbath, from doing your pleasure on My holy day; and call the sabbath a delight, and the holy day of the LORD honourable; and honour it, not doing your own ways, nor finding your own pleasure, nor speaking thereof— then you shall delight yourself in the LORD; and I will make you to ride upon the high places of the earth; and I will feed you with the heritage of Jacob your father: for the mouth of the LORD has spoken it.",
+            "«ref_id: veshamru»",
+            "Remember the sabbath day, to keep it holy. Six days you shall labor, and do all your work; but the seventh day is a sabbath unto the LORD your G-d, in it you shall not do any manner of work, you, nor your son, nor your daughter, nor your man-servant, nor your maid-servant, nor your cattle, nor your stranger that is within your gates: for in six days the LORD made heaven and earth, the sea, and all that in them is, and rested on the seventh day; wherefore the LORD blessed the sabbath day, and hallowed it.",
+            "With your permission, my masters and teachers!",
+            "Blessed are You, the LORD, our G-d, King of the universe, who creates the fruit of the vine."
+          ],
+          "transliteracion": [
+            "im tashiv mishabat raglekha, asot khafatzekha beom kadshi, vekarata lashabat oneg likdosh Adonai mekhubad, vekhibadto measot derakhekha mimtzo kheftzekha vedaber davar. az titanag al Adonai, vehirkavtikha al bamote aretz, vehaakhaltikha nakhalat yaakov avikha, ki pi Adonai diber.",
+            "«ref_id: veshamru»",
+            "zakhor et yom hashabat lekadsho. sheshet yamim taavod veasita kal melakhtekha. veom hashvii shabat layya elohekha, lo taaseh khal melakhah atah uvinkha uvitekha avdekha vaamatkha uvhemtekha vegerkha asher bisharekha. ki sheshet yamim asah Adonai et hashamayim veet haaretz et hayam veet kal asher bam, vayanakh bayom hashvii, al ken berakh Adonai et yom hashabat vaykadshehu.",
+            "savri maranan verabanan verabotay",
+            "barukh atah Adonai elohenu melekh haolam bore peri hagafen"
+          ],
+          "_fuente": "Isaiah 58:13-14; Exodus 20:8-11 — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Sefaria, public domain), with substitution God→G-d, modernized from JPS 1917 archaic English."
+        }
+      },
+      "explicacion": "Kidush de la segunda comida (Seudá Sheniá, sábado al mediodía). No lleva la bendición larga del día: versículos sobre el Shabat (Im tashiv, Veshamru, Zajor) y la bendición del vino.",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "todos": "Se recita sobre la copa de vino antes de la segunda comida del Shabat."
+      },
+      "_fuente": "Isaías 58:13-14 (elemento [0]) y Éxodo 20:8-11 (elemento [2]) — Códice de Leningrado (dominio público). Traducción al español: Biblia Reina-Valera 1909 (Wikisource, dominio público), con sustitución Jehová→Eterno, Dios→D-ios, y ortografía modernizada. Nota: Wikisource presenta 'hacinedo' y 'delelitarás' (errores de transcripción); corregidos a 'haciendo' y 'deleitarás' según el texto impreso RV1909. Veshamrú (elemento [1]): resuelto vía ref_id en runtime. Marco litúrgico ([3], [4]): traducción propia (Claude). Verificada por Hector.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Cotejado contra Bircat Shelomó (EdM). Orden EdM: Im tashiv → Veshamru → Zajor (con Ki sheshet hasta vaykadshehu) → Savri → vino. 'Im tashiv' es la única línea que varía por edición."
+    },
+    {
+      "id": "seuda_shelishit_copa",
+      "nombre": "Tercera copa (Seudá Shelishit)",
+      "categoria": "shabbat",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "ref": {
+        "ref_modulo": "oraciones",
+        "ref_id": "braja_bore_pri_hagafen"
+      },
+      "explicacion": "La tercera comida del Shabat (Seudá Shelishit, sábado por la tarde) NO lleva Kidush formal. Halájicamente el Kidush se recita solo dos veces: la noche del viernes y la mañana del sábado. La 'tercera copa' es un encuadre kabbalístico de Los Secretos de Shabbat (las tres seudot): solo se recita la bendición del vino, sin versículos de apertura ni bendición del día. El peso litúrgico de la comida está en el Hamotsí sobre las dos jalot (lejem mishné).",
+      "secretos": [],
+      "rubrica_por_nusaj": {
+        "todos": "Sobre vino, solo bore peri hagafen — no es Kidush. El núcleo de la comida es el lavado de manos y el Hamotsí sobre dos jalot."
+      },
+      "_fuente": "Práctica kabbalística per Los Secretos de Shabbat §4.1 (Gozlan). La braja del vino reutiliza braja_bore_pri_hagafen del corpus de Oraciones.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "La Seudá Shelishit no lleva Kidush formal (solo dos Kidushim en Shabat: viernes noche y sábado mañana). Por fidelidad a Gozlan se modela como 'tercera copa' = bore peri hagafen vía ref_id, NO como Kidush.",
+      "traducciones": {
+        "es": {
+          "texto": null,
+          "transliteracion": []
+        }
+      }
+    },
+    {
+      "id": "vaijulu",
+      "nombre": "Vaijulú (Bereshit 2:1-3)",
+      "categoria": "torah_incrustada",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "hebreo": [
+        "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל צְבָאָם",
+        "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה, וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל מְלַאכְתּוֹ אֲשֶׁר עָשָׂה",
+        "וַיְבָרֶךְ אֱלֹהִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ, כִּי בוֹ שָׁבַת מִכָּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Y fueron acabados los cielos y la tierra, y todo su ornamento.",
+            "Y acabó D-ios en el día séptimo su obra que hizo, y reposó el día séptimo de toda su obra que había hecho.",
+            "Y bendijo D-ios al día séptimo, y santificólo, porque en él reposó de toda su obra que había D-ios criado y hecho."
+          ],
+          "transliteracion": [
+            "vayjulu hashamayim vehaaretz vejal tzevaam",
+            "vayjal elohim bayom hashvii melajto asher asah, vayishbot bayom hashvii mikal melajto asher asah",
+            "vayvarej elohim et yom hashvii vaykadesh oto, ki vo shavat mikal melajto asher bara elohim laasot"
+          ]
+        },
+        "en": {
+          "texto": [
+            "And the heaven and the earth were finished, and all the host of them.",
+            "And on the seventh day G-d finished His work which He had made; and He rested on the seventh day from all His work which He had made.",
+            "And G-d blessed the seventh day, and hallowed it; because that in it He rested from all His work which G-d in creating had made."
+          ],
+          "transliteracion": [
+            "vaykhulu hashamayim vehaaretz vekhal tzevaam",
+            "vaykhal elohim bayom hashvii melakhto asher asah, vayishbot bayom hashvii mikal melakhto asher asah",
+            "vayvarekh elohim et yom hashvii vaykadesh oto, ki vo shavat mikal melakhto asher bara elohim laasot"
+          ],
+          "_fuente": "Genesis 2:1-3 — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Sefaria, public domain), with substitution God→G-d, modernized from JPS 1917 archaic English."
+        }
+      },
+      "explicacion": "Testimonio bíblico de la culminación de la Creación al séptimo día (Bereshit 2:1-3). Se recita en el Kidush de la noche del viernes y se incrusta también en Atá Kidashta (4ª berajá de la Amidá de Arvit de Shabat). Sin te'amim; en este texto el Nombre Divino no aparece — solo Elohim.",
+      "secretos": [],
+      "_fuente": "Génesis 2:1-3 — Códice de Leningrado (dominio público). Traducción al español: Biblia Reina-Valera 1909 (Wikisource, dominio público; https://es.wikisource.org/wiki/Biblia_Reina-Valera_1909/Génesis/2), con sustitución Jehová→Eterno, Dios→D-ios, y ortografía modernizada.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Átomo reusable: extraído del Kidush leil Shabat e inlineado en Atá Kidashta (Amidá Arvit Shabat) vía placeholder «ref_id: vaijulu» que el ingest resuelve en build."
+    },
+    {
+      "id": "veshamru",
+      "nombre": "Veshamrú (Shemot 31:16-17)",
+      "categoria": "torah_incrustada",
+      "momentos": [
+        "shabbat"
+      ],
+      "aplicabilidad": {
+        "nusaj": [
+          "todos"
+        ]
+      },
+      "hebreo": [
+        "וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת, לַעֲשׂוֹת אֶת הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם. בֵּינִי וּבֵין בְּנֵי יִשְׂרָאֵל אוֹת הִוא לְעֹלָם, כִּי שֵׁשֶׁת יָמִים עָשָׂה יְיָ אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ, וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ"
+      ],
+      "traducciones": {
+        "es": {
+          "texto": [
+            "Guardarán, pues, el sábado los hijos de Israel: celebrándolo por sus edades por pacto perpetuo: Señal es para siempre entre mí y los hijos de Israel; porque en seis días hizo el Eterno los cielos y la tierra, y en el séptimo día cesó, y reposó."
+          ],
+          "transliteracion": [
+            "veshamru vene yisrael et hashabat, laasot et hashabat ledorotam berit olam. beni uven bene yisrael ot hiv leolam, ki sheshet yamim asah Adonai et hashamayim veet haaretz, uvayom hashvii shavat vayinafash"
+          ]
+        },
+        "en": {
+          "texto": [
+            "And the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, for a perpetual covenant. It is a sign between Me and the children of Israel for ever; for in six days the LORD made heaven and earth, and on the seventh day He ceased from work and was refreshed."
+          ],
+          "transliteracion": [
+            "veshamru vene yisrael et hashabat, laasot et hashabat ledorotam berit olam. beni uven bene yisrael ot hiv leolam, ki sheshet yamim asah Adonai et hashamayim veet haaretz, uvayom hashvii shavat vayinafash"
+          ],
+          "_fuente": "Exodus 31:16-17 — Leningrad Codex (public domain). English translation: Jewish Publication Society 1917 (Sefaria, public domain), modernized from JPS 1917 archaic English."
+        }
+      },
+      "explicacion": "Pacto del Shabat entre HaShem e Israel (Shemot 31:16-17). Se recita en el Kidush de la mañana (Kidush Rabá), en Arvit de Shabat (entre Hashkivenu y la Amidá) y se incrusta en Yismaj Moshé (4ª berajá de la Amidá de Shajrit de Shabat). Sin te'amim; Nombre normalizado a יְיָ.",
+      "secretos": [],
+      "_fuente": "Éxodo 31:16-17 — Códice de Leningrado (dominio público). Traducción al español: Biblia Reina-Valera 1909 (Wikisource, dominio público; https://es.wikisource.org/wiki/Biblia_Reina-Valera_1909/Éxodo/31), con sustitución Jehová→Eterno, Dios→D-ios, y ortografía modernizada.",
+      "_parcial": false,
+      "_verificar": false,
+      "_nota": "Átomo reusable: extraído del Kidush yom Shabat e inlineado en Yismaj Moshé (Amidá Shajrit Shabat) vía placeholder «ref_id: veshamru» que el ingest resuelve en build."
+    }
+  ]
+}

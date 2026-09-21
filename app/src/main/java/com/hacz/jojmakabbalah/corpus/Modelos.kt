@@ -19,6 +19,50 @@ data class TraduccionContenido(
     @SerialName("_fuente") val fuente: String? = null,
 )
 
+/**
+ * Traducción que la UI va a mostrar de hecho, con el idioma
+ * REALMENTE resuelto al lado del pedido, para que la vista sepa si
+ * avisar del fallback — paridad exacta con `TraduccionResuelta` en
+ * IdiomaContenido.swift (iOS).
+ */
+data class TraduccionResuelta(
+    val lineas: List<String>,
+    /** Idioma de `lineas`. Puede diferir de `pedido` si hubo fallback. */
+    val idioma: String,
+    /** Idioma que la UI pidió. */
+    val pedido: String,
+) {
+    val esFallback: Boolean get() = idioma != pedido
+}
+
+/**
+ * Resuelve el texto a mostrar: idioma pedido → español → null.
+ *
+ * Paridad INTENCIONAL con `Dictionary.textoResuelto(preferido:)` de
+ * IdiomaContenido.swift (iOS) — misma regla, traducida a Kotlin, no
+ * reinventada. Un array vacío cuenta como ausente (mismo criterio que
+ * iOS: hay átomos con la llave del idioma presente pero `texto` sin
+ * poblar).
+ *
+ * IMPORTANTE, también paridad con iOS: la TRANSLITERACIÓN no tiene
+ * fallback — no existe un `transliteracionResuelta()` equivalente.
+ * La convención fonética es distinta por idioma; la española leída
+ * como si fuera inglesa sería simplemente incorrecta (mismo criterio
+ * que `Dictionary.transliteracion(idioma:)` en iOS, que documenta
+ * esto explícitamente). Quien necesite transliteración debe seguir
+ * consultando `traducciones[idioma]?.transliteracion` directo, sin
+ * fallback, y aceptar `null`/vacío si ese idioma no la tiene.
+ */
+fun Map<String, TraduccionContenido>.textoResuelto(preferido: String): TraduccionResuelta? {
+    this[preferido]?.texto?.takeIf { it.isNotEmpty() }?.let {
+        return TraduccionResuelta(it, preferido, preferido)
+    }
+    this["es"]?.texto?.takeIf { it.isNotEmpty() }?.let {
+        return TraduccionResuelta(it, "es", preferido)
+    }
+    return null
+}
+
 /** Kavaná embebida en un versículo — mismo esquema que Kavana.swift. */
 @Serializable
 data class Kavana(
@@ -57,6 +101,17 @@ data class SalmosApp(
  * oraciones_preservados.json (campo "oraciones" o "atomos"). Se
  * modela aparte de Salmo porque trae campos propios (categoria,
  * momentos, nombre_hebreo) que Salmo no tiene.
+ *
+ * `hebreo` tiene default `emptyList()` — NO todos los átomos lo
+ * traen. Hallazgo real 2026-09-21 parseando bloque11_shabbat.json:
+ * el átomo "hamotzi" es una referencia PURA a nivel de átomo completo
+ * (campo `ref: {ref_modulo, ref_id}`, sin `hebreo` en absoluto,
+ * `traducciones.es.texto: null`) — un segundo tipo de referencia,
+ * DISTINTO del placeholder inline `«ref_id: ...»` dentro de una línea
+ * de `hebreo[]` (ver esPlaceholderRefId() más abajo). Ninguno de los
+ * dos tipos se resuelve todavía — ambos son TODO explícito. El campo
+ * `ref` en sí no se modela aquí (ignoreUnknownKeys lo descarta); si
+ * se necesita resolverlo habrá que agregarlo.
  */
 @Serializable
 data class Atomo(
@@ -66,7 +121,7 @@ data class Atomo(
     val tipo: String? = null,
     val categoria: String? = null,
     val momentos: List<String> = emptyList(),
-    val hebreo: List<String>,
+    val hebreo: List<String> = emptyList(),
     val traducciones: Map<String, TraduccionContenido>,
     val explicacion: String? = null,
 ) {
@@ -83,3 +138,26 @@ data class BloqueOraciones(
 ) {
     val items: List<Atomo> get() = oraciones ?: atomos ?: emptyList()
 }
+
+private val PATRON_REF_ID = Regex("""«ref_id:\s*([\w-]+)\s*»""")
+
+/**
+ * true si esta línea de `hebreo[]` es un placeholder de referencia a
+ * otro átomo (ej. "«ref_id: vaijulu»") en vez de hebreo real — mismo
+ * formato que ya reconoce transliterar_linea() en scripts/translit.py
+ * y que OracionLectorView.swift resuelve en runtime del lado iOS.
+ */
+fun esPlaceholderRefId(linea: String): Boolean = linea.startsWith("«ref_id:")
+
+/** Extrae el id referenciado de un placeholder, o null si la línea
+ *  no es un placeholder ref_id. */
+fun idReferenciado(linea: String): String? = PATRON_REF_ID.find(linea)?.groupValues?.get(1)
+
+// TODO(oraciones-ref-id): esto solo DETECTA el placeholder — no lo
+// RESUELVE. Resolver de verdad significa: buscar el Atomo con ese id
+// en la MISMA colección ya descargada (puede vivir en otro bloque —
+// ver bloquesAdicionales en OracionesService.swift del lado iOS para
+// el orden real de dependencias) y copiar su hebreo[]/traducciones en
+// la posición correspondiente. No implementado todavía — pendiente
+// explícito para cuando se construya la UI real de Oraciones (esta
+// pieza es solo parsing + fallback de idioma, ver commit).

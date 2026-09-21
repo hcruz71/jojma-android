@@ -24,12 +24,17 @@ class SalmosRepository {
      *  amplio sin ser un límite absurdo. */
     private val maxBytes: Long = 5L * 1024 * 1024
 
-    suspend fun descargarSalmo(numero: Int): Salmo {
+    /** Descarga y parsea los 150 salmos completos. Sin caché — cada
+     *  llamada vuelve a bajar el archivo (ver nota de clase arriba). */
+    suspend fun descargarTodos(): List<Salmo> {
         val ref = Firebase.storage.reference.child("corpus/salmos_app.json")
         val bytes = ref.getBytes(maxBytes).await()
         val texto = bytes.toString(Charsets.UTF_8)
         val data = json.decodeFromString(SalmosApp.serializer(), texto)
-        return data.salmos.find { it.numero == numero }
-            ?: error("Salmo $numero no encontrado en salmos_app.json (${data.salmos.size} salmos descargados)")
+        return data.salmos
     }
+
+    suspend fun descargarSalmo(numero: Int): Salmo =
+        descargarTodos().find { it.numero == numero }
+            ?: error("Salmo $numero no encontrado en salmos_app.json")
 }

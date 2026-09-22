@@ -97,10 +97,23 @@ data class SalmosApp(
 )
 
 /**
+ * Subobjeto anidado `"ref": {"ref_modulo": "...", "ref_id": "..."}` —
+ * mismo esquema que `RefAnidada` en OracionesService.swift (iOS).
+ * Coexiste en el corpus con las claves planas legacy `ref_modulo`/
+ * `ref_id` a nivel de átomo (bloques 1-10); el anidado (bloque11+)
+ * gana cuando ambos están presentes — ver `Atomo.refModuloEfectivo`.
+ */
+@Serializable
+data class RefAnidada(
+    @SerialName("ref_modulo") val refModulo: String? = null,
+    @SerialName("ref_id") val refId: String? = null,
+)
+
+/**
  * Un átomo de oración — refleja el esquema de bloque*.json /
  * oraciones_preservados.json (campo "oraciones" o "atomos"). Se
  * modela aparte de Salmo porque trae campos propios (categoria,
- * momentos, nombre_hebreo) que Salmo no tiene.
+ * momentos, nombre_hebreo, referencias) que Salmo no tiene.
  *
  * `hebreo` tiene default `emptyList()` — NO todos los átomos lo
  * traen. Hallazgo real 2026-09-21 parseando bloque11_shabbat.json:
@@ -108,10 +121,19 @@ data class SalmosApp(
  * (campo `ref: {ref_modulo, ref_id}`, sin `hebreo` en absoluto,
  * `traducciones.es.texto: null`) — un segundo tipo de referencia,
  * DISTINTO del placeholder inline `«ref_id: ...»` dentro de una línea
- * de `hebreo[]` (ver esPlaceholderRefId() más abajo). Ninguno de los
- * dos tipos se resuelve todavía — ambos son TODO explícito. El campo
- * `ref` en sí no se modela aquí (ignoreUnknownKeys lo descarta); si
- * se necesita resolverlo habrá que agregarlo.
+ * de `hebreo[]` (ver esPlaceholderRefId() más abajo).
+ *
+ * `_fuente` es TOP-LEVEL acá (a diferencia de Salmo, donde vive por
+ * traducción dentro de TraduccionContenido) — verificado contra el
+ * JSON real de bloque1/4/11: ninguna entrada de `traducciones.es`
+ * trae `_fuente` propio, solo el átomo completo.
+ *
+ * NINGÚN tipo de referencia se resuelve todavía — ver TODO en
+ * `esRef`/`esRefASalmo` más abajo. `secretos`, `aplicabilidad`
+ * (filtro por nusaj), `variantes`, `rubrica_por_nusaj`,
+ * `ketiv_variantes`, `simanim_meta`, `omer_meta`, `agitacion_meta`
+ * del modelo real de iOS NO se modelan acá (ignoreUnknownKeys los
+ * descarta) — fuera de alcance de este pase, ver reporte 2026-09-21.
  */
 @Serializable
 data class Atomo(
@@ -124,8 +146,37 @@ data class Atomo(
     val hebreo: List<String> = emptyList(),
     val traducciones: Map<String, TraduccionContenido>,
     val explicacion: String? = null,
+    val ref: RefAnidada? = null,
+    @SerialName("ref_modulo") val refModuloPlano: String? = null,
+    @SerialName("ref_id") val refIdPlano: String? = null,
+    @SerialName("_fuente") val fuente: String? = null,
+    @SerialName("_nota") val nota: String? = null,
+    @SerialName("_parcial") val parcial: Boolean? = null,
+    @SerialName("_verificar") val verificar: Boolean? = null,
 ) {
     fun traduccion(idioma: String): TraduccionContenido? = traducciones[idioma]
+
+    /** Prioriza el objeto anidado sobre las claves planas — mismo
+     *  criterio que `Atomo.init(from:)` en iOS. */
+    val refModuloEfectivo: String? get() = ref?.refModulo ?: refModuloPlano
+    val refIdEfectivo: String? get() = ref?.refId ?: refIdPlano
+
+    /** true si tipo=="ref" O si trae un ref_id resoluble — mismo
+     *  auto-tipado que iOS (`tipoExplicito ?? (refId != nil ? "ref" : "texto")`). */
+    val esRef: Boolean get() = tipo == "ref" || refIdEfectivo != null
+
+    /** true si es una referencia a un Salmo completo. En iOS esto
+     *  redirige al lector NATIVO de Salmos (Pesukei deZimrá, etc.).
+     *  TODO(oraciones-ref-salmo): Android NO implementa ese redirect
+     *  todavía — requeriría compartir SalmosViewModel/nav entre
+     *  módulos independientes; por ahora se trata igual que cualquier
+     *  otra referencia sin resolver (placeholder genérico). Simplificación
+     *  explícita, documentada en el reporte del 2026-09-21. */
+    val esRefASalmo: Boolean get() = esRef && refModuloEfectivo == "salmos"
+
+    /** _parcial o _verificar — mismo criterio que `porCompletar` en
+     *  iOS: para el usuario ambas banderas significan "no es final". */
+    val porCompletar: Boolean get() = parcial == true || verificar == true
 }
 
 /** Raíz tolerante a los dos esquemas históricos (oraciones vs atomos)

@@ -207,6 +207,12 @@ fun OracionesListaScreen(
 /// apuntan a salmos (`esRefASalmo`), que en iOS SÍ redirigen al
 /// lector nativo pero acá NO (ver TODO en Modelos.kt).
 ///
+/// TODO(karaoke): mismo hallazgo que DetalleSalmoScreen en
+/// MainActivity.kt — ver el TODO completo ahí (arquitectura portable
+/// vía UtteranceProgressListener.onRangeStart, bloqueada por
+/// disponibilidad de voz hebrea en el dispositivo, verificado
+/// empíricamente 2026-09-22). No bloqueante para el MVP.
+///
 /// Placeholder inline `«ref_id: ...»` dentro de una línea de hebreo
 /// normal: esa línea puntual se reemplaza por un aviso, el resto del
 /// átomo se renderiza normal.

@@ -231,6 +231,21 @@ private fun FaseKavana.siguiente(): FaseKavana = when (this) {
 /// (mismo criterio que iOS: @AppStorage allá, remember{} local acá — sin
 /// persistencia entre sesiones todavía, eso no forma parte de este cambio).
 /// Sin audio/TTS ni comentarios — fuera de alcance de esta corrección.
+///
+/// TODO(karaoke): Karaoke de lectura (TTS + resaltado por palabra) —
+/// arquitectura portable confirmada 1:1 desde iOS
+/// (UtteranceProgressListener.onRangeStart equivale a
+/// willSpeakRangeOfSpeechString de LectorSalmoViewModel.swift), pero
+/// bloqueado por disponibilidad de voz hebrea: el dispositivo de
+/// prueba (Samsung A54) usa motor TTS Samsung sin hebreo instalado;
+/// Google TTS está presente pero no activo como motor default.
+/// Requiere que el usuario cambie el motor TTS del sistema y/o
+/// descargue paquete de voz hebrea de Google — fuente de
+/// fragmentación mayor que iOS, donde Apple controla el motor único.
+/// Verificado empíricamente 2026-09-22 (TextToSpeech.isLanguageAvailable
+/// devolvió LANG_NOT_SUPPORTED, 0 voces "he" encontradas, defaultEngine
+/// = com.samsung.SMT). Pendiente para fase posterior del proyecto, NO
+/// bloqueante para el MVP de Salmos+Oraciones.
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DetalleSalmoScreen(

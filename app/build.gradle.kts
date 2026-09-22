@@ -73,6 +73,11 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
+    // Conversión de calendario hebreo (JewishDate) para el módulo de
+    // Festividades — evaluado 2026-09-22 en vez de reimplementar el
+    // algoritmo desde cero (java.time no trae calendario hebreo). Versión
+    // verificada contra maven-metadata.xml real en repo1.maven.org.
+    implementation("com.kosherjava:zmanim:2.5.0")
     // .await() sobre com.google.android.gms.tasks.Task — lo que devuelven
     // las llamadas de Firebase Storage/Firestore.
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.11.0")

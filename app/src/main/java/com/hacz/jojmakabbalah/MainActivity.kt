@@ -51,6 +51,7 @@ import com.hacz.jojmakabbalah.corpus.Kavana
 import com.hacz.jojmakabbalah.corpus.Salmo
 import com.hacz.jojmakabbalah.corpus.SalmosRepository
 import com.hacz.jojmakabbalah.corpus.TraduccionResuelta
+import com.hacz.jojmakabbalah.festividades.AppFestividades
 import com.hacz.jojmakabbalah.hub.HubScreen
 import com.hacz.jojmakabbalah.hub.ModuloHub
 import com.hacz.jojmakabbalah.oraciones.AppOraciones
@@ -86,7 +87,7 @@ fun JojmaApp() {
                         ModuloHub.SALMOS -> "salmos"
                         ModuloHub.ORACIONES -> "oraciones"
                         ModuloHub.NOMBRES -> "placeholder/72 Nombres de D-ios"
-                        ModuloHub.FESTIVIDADES -> "placeholder/Festividades"
+                        ModuloHub.FESTIVIDADES -> "festividades"
                         ModuloHub.MEDITACIONES -> "placeholder/Meditaciones"
                         ModuloHub.SHABBAT -> "placeholder/Shabbat"
                     }
@@ -99,6 +100,7 @@ fun JojmaApp() {
         }
         composable("salmos") { AppSalmos() }
         composable("oraciones") { AppOraciones() }
+        composable("festividades") { AppFestividades() }
         composable("placeholder/{titulo}") { entrada ->
             PlaceholderScreen(
                 titulo = entrada.arguments?.getString("titulo") ?: "",
